@@ -1,0 +1,23 @@
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Apr 09, 2015 9:51AM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[HY000] [1049] Unknown database 'sampleapp'</p>
+
+		<p><strong>Code:</strong> 1049</p>
+
+		<p><strong>File:</strong> C:\wamp\www\images\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 54</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\wamp\www\images\app\helpers\database.php(54): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp\www\images\app\core\model.php(25): helpers\Database::get()
+#2 C:\wamp\www\images\app\controllers\home.php(16): core\Model->__construct()
+#3 C:\wamp\www\images\app\core\router.php(80): controllers\Home->__construct(NULL)
+#4 C:\wamp\www\images\app\core\router.php(177): core\Router::invokeObject('\\controllers\\ho...')
+#5 C:\wamp\www\images\index.php(86): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
